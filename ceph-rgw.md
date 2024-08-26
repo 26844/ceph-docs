@@ -1,4 +1,4 @@
-#在命令行界面中使用 ceph orch 命令部署 Ceph 对象网关
+# 在命令行界面中使用 ceph orch 命令部署 Ceph 对象网关
 ## 列出rgw相关信息
 ### 列出rgw的realm<br>
 radosgw-admin realm list 
