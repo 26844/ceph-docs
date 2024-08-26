@@ -5,7 +5,7 @@ radosgw-admin realm list
 {<br>
     "default_info": "3239ba52-ee88-4e69-acae-930d09da5cdd",<br>
     "realms": [<br>
-        "test_ftimage_realm"<br>
+        "test_xxx_realm"<br>
     ]<br>
 }<br>
 ### 列出rgw的zonegroup<br>
@@ -13,7 +13,7 @@ radosgw-admin zonegroup list
 {<br>
     "default_info": "63f03ee2-9785-4631-9908-23205b17e0c5",<br>
     "zonegroups": [<br>
-        "test_ftimage_zg",<br>
+        "test_xxx_zg",<br>
         "default"<br>
     ]<br>
 }<br>
@@ -23,7 +23,7 @@ radosgw-admin zone list
 {<br>
     "default_info": "67069c4a-335d-4fb2-9464-17b56f53b5c6",<br>
     "zones": [<br>
-        "test_ftimage_zone",<br>
+        "test_xxx_zone",<br>
         "default"<br>
     ]<br>
 }<br>
