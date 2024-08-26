@@ -28,6 +28,9 @@ radosgw-admin zone list
     ]<br>
 }<br>
 
+### 列出rgw服务<br>
+ceph orch ps<br>
+
 ## 创建自定义realm
 radosgw-admin realm create --rgw-realm=test_xxx_realm --default<br>
 ## 创建自定义zonegroup
@@ -37,6 +40,5 @@ radosgw-admin zone create --rgw-zonegroup=test_xxx_zg --rgw-zone=test_xxx_zone -
 ## 在命令行界面中使用 ceph orch 命令部署自定义 Ceph 对象网关
 ceph orch apply rgw test-xxx --realm=test_xxx_realm --zone=test_xxx_zone --placement="2 ceph-01 ceph-02"<br>
 
-ceph orch ps<br>
 ## 删除 Ceph 对象网关
 ceph orch rm rgw.test-xxx<br>
