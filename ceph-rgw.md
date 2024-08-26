@@ -1,5 +1,5 @@
 # 查看rgw相关信息
-radosgw-admin realm list # 查看rgw的realm
+radosgw-admin realm list # 查看rgw的realm<br>
 {
     "default_info": "3239ba52-ee88-4e69-acae-930d09da5cdd",
     "realms": [
