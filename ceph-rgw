@@ -1,1 +1,16 @@
 
+radosgw-admin realm list
+radosgw-admin zonegroup list
+radosgw-admin zone list
+
+radosgw-admin realm create --rgw-realm=test_xxx_realm --default
+radosgw-admin zonegroup create --rgw-zonegroup=test_xxx_zg --master --default
+radosgw-admin zone create --rgw-zonegroup=test_xxx_zg --rgw-zone=test_xxx_zone --master --default
+
+ceph orch apply rgw test-xxx --realm=test_xxx_realm --zone=test_xxx_zone --placement="2 ceph-01 ceph-02"
+
+
+ceph orch ls
+ceph orch rm rgw.test-xxx
+
+
