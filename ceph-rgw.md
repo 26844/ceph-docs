@@ -1,5 +1,6 @@
-# 列出rgw相关信息
-## 列出rgw的realm<br>
+#在命令行界面中使用 ceph orch 命令部署 Ceph 对象网关
+## 列出rgw相关信息
+### 列出rgw的realm<br>
 radosgw-admin realm list 
 {<br>
     "default_info": "3239ba52-ee88-4e69-acae-930d09da5cdd",<br>
@@ -7,7 +8,7 @@ radosgw-admin realm list
         "test_ftimage_realm"<br>
     ]<br>
 }<br>
-# 列出rgw的zonegroup<br>
+### 列出rgw的zonegroup<br>
 radosgw-admin zonegroup list 
 {<br>
     "default_info": "63f03ee2-9785-4631-9908-23205b17e0c5",<br>
@@ -17,7 +18,7 @@ radosgw-admin zonegroup list
     ]<br>
 }<br>
 
-# 列出rgw的zone<br>
+### 列出rgw的zone<br>
 radosgw-admin zone list 
 {<br>
     "default_info": "67069c4a-335d-4fb2-9464-17b56f53b5c6",<br>
@@ -27,12 +28,15 @@ radosgw-admin zone list
     ]<br>
 }<br>
 
+## 创建realm
 radosgw-admin realm create --rgw-realm=test_xxx_realm --default<br>
+## 创建zonegroup
 radosgw-admin zonegroup create --rgw-zonegroup=test_xxx_zg --master --default<br>
+## 创建zone
 radosgw-admin zone create --rgw-zonegroup=test_xxx_zg --rgw-zone=test_xxx_zone --master --default<br>
 
 ceph orch apply rgw test-xxx --realm=test_xxx_realm --zone=test_xxx_zone --placement="2 ceph-01 ceph-02"<br>
 
 
-ceph orch ls<br>
+ceph orch ps<br>
 ceph orch rm rgw.test-xxx<br>
