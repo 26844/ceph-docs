@@ -3,7 +3,7 @@
 ceph auth list
 
 ### 创建用户
-radosgw-admin user create --uid=xxxapi --display-name="xxx s3 api" --email=test@xx.cn
+radosgw-admin user create --uid=xxxapi --display-name="xxx s3 api" --email=test@xx.com
 
 
 ### 查看某用户信息
