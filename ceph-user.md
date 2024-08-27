@@ -5,3 +5,6 @@ radosgw-admin user create --uid=xxxapi --display-name="xxx s3 api" --email=test@
 
 ### 查看某用户信息
 radosgw-admin user info --uid=xxx
+
+### 查看某用户用量统计
+radosgw-admin user stats --uid=xxx
