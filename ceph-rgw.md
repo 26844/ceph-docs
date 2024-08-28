@@ -1,6 +1,6 @@
 ## Ceph 对象网关
 
-### 创建自定义realm
+#### 创建自定义realm
 radosgw-admin realm create --rgw-realm=test_xxx_realm --default<br>
 ### 创建自定义zonegroup
 radosgw-admin zonegroup create --rgw-zonegroup=test_xxx_zg --master --default<br>
