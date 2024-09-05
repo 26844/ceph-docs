@@ -6,7 +6,7 @@ radosgw-admin realm create --rgw-realm=test_xxx_realm --default<br>
 radosgw-admin zonegroup create --rgw-zonegroup=test_xxx_zg --master --default<br>
 #### 创建自定义zone
 radosgw-admin zone create --rgw-zonegroup=test_xxx_zg --rgw-zone=test_xxx_zone --master --default<br>
-#### 在命令行界面中使用 ceph orch 命令部署自定义 Ceph 对象网关,创建成功后会在ceph-01和ceph-02主机上启动80端口，即endpoint地址：ceph-01ip:80,ceph-02ip:80
+#### 命令行中使用 ceph orch 命令部署自定义 Ceph 对象网关,创建成功后会在ceph-01和ceph-02主机上启动80端口，即endpoint地址：ceph-01ip:80,ceph-02ip:80
 ceph orch apply rgw test-xxx --realm=test_xxx_realm --zone=test_xxx_zone --placement="2 ceph-01 ceph-02"<br>
 
 #### 查看各节点 rgw 是否启动
