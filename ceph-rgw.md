@@ -54,3 +54,6 @@ radosgw-admin user info --uid=xxx
 #### 查看某用户用量统计
 radosgw-admin user stats --uid=xxx
 
+#### 列出桶名称
+radosgw-admin bucket list
+
