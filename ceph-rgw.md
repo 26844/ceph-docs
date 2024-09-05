@@ -44,7 +44,7 @@ radosgw-admin zone list<br>
 #### 删除 Ceph 对象网关
 ceph orch rm rgw.test-xxx<br>
 
-#### 创建用户
+#### 创建用户，会生成ak\sk
 radosgw-admin user create --uid=xxxapi --display-name="xxx s3 api" --email=test@xx.com
 
 
