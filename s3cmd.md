@@ -7,7 +7,7 @@ apt install s3cmd
 #### s3cmd 配置
 s3cmd --configure
 
-New settings:
+New settings:<br>
   Access Key: xxxx
   Secret Key: yyyy
   Default Region: zzzz
