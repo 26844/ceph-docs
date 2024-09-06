@@ -32,5 +32,5 @@ Configuration saved to '/root/.s3cfg'<br>
 其中  Default Region: zzzz 的值，使用radosgw-admin zonegroup list命令查看<br>
 
 #### 列出所有buckets
-s3cmd ls
+s3cmd ls<br>
 2024-08-27 03:19  s3://new-bucket-test
