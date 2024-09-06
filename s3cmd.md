@@ -8,28 +8,28 @@ apt install s3cmd
 s3cmd --configure
 
 New settings:<br>
-  Access Key: xxxx
-  Secret Key: yyyy
-  Default Region: zzzz
-  S3 Endpoint: 114.55.65.30:80
-  DNS-style bucket+hostname:port template for accessing a bucket: %(bucket)s.s3.amazonaws.com
-  Encryption password: 
-  Path to GPG program: /usr/bin/gpg
-  Use HTTPS protocol: False
-  HTTP Proxy server name: 
-  HTTP Proxy server port: 0
+  Access Key: xxxx<br>
+  Secret Key: yyyy<br>
+  Default Region: zzzz<br>
+  S3 Endpoint: 114.55.65.30:80<br>
+  DNS-style bucket+hostname:port template for accessing a bucket: %(bucket)s.s3.amazonaws.com<br>
+  Encryption password: <br>
+  Path to GPG program: /usr/bin/gpg<br>
+  Use HTTPS protocol: False<br>
+  HTTP Proxy server name: <br>
+  HTTP Proxy server port: 0<br>
 
-Test access with supplied credentials? [Y/n] Y
-Please wait, attempting to list all buckets...
-Success. Your access key and secret key worked fine :-)
+Test access with supplied credentials? [Y/n] Y<br>
+Please wait, attempting to list all buckets...<br>
+Success. Your access key and secret key worked fine :-<br>)
 
-Now verifying that encryption works...
-Not configured. Never mind.
+Now verifying that encryption works...<br>
+Not configured. Never mind.<br>
 
-Save settings? [y/N] Y
-Configuration saved to '/root/.s3cfg'
+Save settings? [y/N] Y<br>
+Configuration saved to '/root/.s3cfg'<br>
 
-其中  Default Region: zzzz 的值，使用radosgw-admin zonegroup list命令查看
+其中  Default Region: zzzz 的值，使用radosgw-admin zonegroup list命令查看<br>
 
 #### 列出所有buckets
 s3cmd ls
