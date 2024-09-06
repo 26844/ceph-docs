@@ -21,7 +21,7 @@ New settings:<br>
 
 Test access with supplied credentials? [Y/n] Y<br>
 Please wait, attempting to list all buckets...<br>
-Success. Your access key and secret key worked fine :-<br>)
+Success. Your access key and secret key worked fine :-)<br>
 
 Now verifying that encryption works...<br>
 Not configured. Never mind.<br>
