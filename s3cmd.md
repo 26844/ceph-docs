@@ -1,6 +1,6 @@
 ### s3cmd命令
 #### 在centos7 安装 
-pip install s3cmd
+##### pip install s3cmd
 #### 在ubuntu22.04 安装
 apt install s3cmd
 
