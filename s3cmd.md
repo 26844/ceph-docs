@@ -31,7 +31,7 @@ Configuration saved to '/root/.s3cfg'<br>
 
 其中  Default Region: zzzz 的值，使用radosgw-admin zonegroup list命令查看<br>
 
-#####  [/root/.s3cfg配置文件](https://github.com/26844/ceph-docs/blob/main/s3cfg)
+##### 将自动生成 [/root/.s3cfg配置文件](https://github.com/26844/ceph-docs/blob/main/s3cfg)
 
 
 #### 列出所有buckets
