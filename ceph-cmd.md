@@ -1,3 +1,3 @@
-ceph -s 或 ceph status
-ceph -v
-ceph osd df
+ceph -s 或 ceph status<br>
+ceph -v<br>
+ceph osd df<br>
