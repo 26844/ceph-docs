@@ -37,3 +37,6 @@ Configuration saved to '/root/.s3cfg'<br>
 #### 列出所有buckets
 ##### s3cmd ls
 2024-08-27 03:19  s3://new-bucket-test
+
+#### 上传abc.txt文件到bucketname桶
+##### s3cmd put /xxx/abc.txt s3://bucketname/
