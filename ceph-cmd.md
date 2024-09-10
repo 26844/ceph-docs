@@ -7,3 +7,4 @@
 ###### ceph orch ps
 
 ###### ceph orch ls
+###### ceph orch device ls
