@@ -5,3 +5,5 @@
 ###### rados df<br>
 ###### ceph orch host ls \#
 ###### ceph orch ps
+
+###### ceph orch ls
