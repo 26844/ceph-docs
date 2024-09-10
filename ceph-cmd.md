@@ -4,6 +4,5 @@ ceph osd df<br>
 ceph df<br>
 rados df<br>
 
-###### ceph orch host ls 
-#### 列出
+###### ceph orch host ls \#
 ceph orch ps
