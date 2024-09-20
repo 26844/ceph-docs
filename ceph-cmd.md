@@ -12,3 +12,8 @@
 
 
 ###### ceph orch device ls
+
+###### ceph mon dump \#查看monitor map
+###### ceph osd dump \# 查看OSD map
+###### ceph osd getcrushmap -o {filename}，crushtool -d {comp-crushmap-filename} -o {decomp-crushmap-filename}，cat decomp-crushmap-filename \#查看CRUSH map
+###### ceph fs dump \#查看MDS map
