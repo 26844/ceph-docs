@@ -14,8 +14,10 @@
 ###### ceph orch device ls
 
 ###### ceph mon dump \#查看monitor map
+###### ceph fs dump \#查看MDS map
+
 ###### ceph osd dump \#查看OSD map
 ###### ceph osd getcrushmap -o {filename}，crushtool -d {comp-crushmap-filename} -o {decomp-crushmap-filename}，cat decomp-crushmap-filename \#查看CRUSH map
-
 ###### ceph osd tree \#获取集群 CRUSH 层次结构（包括权重）的简单视图
-###### ceph fs dump \#查看MDS map
+###### ceph osd crush rule ls \#查看集群定义的规则
+###### ceph osd crush rule dump \#查看规则的内容
