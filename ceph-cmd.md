@@ -1,3 +1,4 @@
+##### ceph相关命令可参考：https://docs.ceph.com/en/latest/man/8/ceph/#description 
 ###### ceph -s 或 ceph status<br>
 ###### ceph -v<br>
 ###### ceph osd df<br>
